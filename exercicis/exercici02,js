@@ -1,0 +1,11 @@
+const prompt = require('prompt-promise');
+
+async function main () {
+    let input = await prompt("Escriu una llista de paraules separades per punt i coma: ")
+
+    // TODO: 
+    // Separa les paraules que ha introduït l'usuari pel caracter ;
+    // Escriu per pantalla les paraules que comencen per 'a' i acaben per 'r'
+}
+
+main()

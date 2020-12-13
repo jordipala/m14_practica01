@@ -1,0 +1,20 @@
+const prompt = require('prompt-promise');
+
+async function main () {
+    // TODO: Revisa aquestes linees tenint en compte que a les variables s'han d'emmagatzemar números enters
+    let numero1 = await prompt("Escriu un número: ")
+    let numero2 = await prompt("Escriu un altre número: ")
+    let increment = await prompt("Escriu el valor que es farà servir per incrementar cada vegada: ")
+
+
+    // TODO: 
+    // Mostra per pantalla tots els números que van de número 1 a número 2 amb
+    // increments del valor que hagi introduït l'usuari. Per exemple, si l'entrada és: 5, 15
+    // i el valor d'increment 3
+    // la sortida esperada és: 5, 8, 11, 14
+
+    // TODO:
+    // Escriu per pantalla "La suma dels números llistats és X", a on X en l'exemple seria 5, 8, 11, 14
+}
+
+main()
